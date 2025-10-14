@@ -79,28 +79,6 @@ forecast_df = forecaster.forecast_future(days=30)
 print(forecast_df[['date', 'forecast']].head())
 ```
 
-## 📁 Project Structure
-
-```
-sales-forecasting-lstm/
-│
-├── sales_forecaster.py          # Main forecasting class
-├── advanced_analysis.py         # Model comparison and advanced analytics
-├── requirements.txt             # Dependencies
-├── README.md                    # Project documentation
-├── examples/                    # Example usage scripts
-│   ├── basic_forecasting.py
-│   ├── model_comparison.py
-│   └── interactive_demo.py
-├── outputs/                     # Generated reports and visualizations
-│   ├── forecasts/
-│   ├── model_performance/
-│   └── visualizations/
-└── notebooks/                   # Jupyter notebooks for analysis
-    ├── exploratory_analysis.ipynb
-    └── model_training.ipynb
-```
-
 ## 📊 Dataset Features
 
 ### 🏪 Sales Data Components
