@@ -99,11 +99,10 @@ class SalesForecaster:
         print(self.df[['sales', 'rolling_avg_7', 'rolling_avg_30']].describe())
         
         # Sales patterns by day of week
-        print(f"\n📊 Sales by Day of Week:")
-        daily_sales = self.df.groupby('day_of_week')['sales'].mean()
         days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-        for i, sales in daily_sales.items():
-            print(f"  {days[i]}: {sales:.2f}")
+print("\n📊 Sales by Day of Week:")
+for day, sales in self.df.groupby('day_of_week')['sales'].mean().items():
+    print(f"  {days[day]}: {sales:.2f}")
         
         # Monthly patterns
         print(f"\n📅 Monthly Sales Patterns:")
