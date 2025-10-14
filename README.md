@@ -4,7 +4,7 @@
 
 A comprehensive time-series forecasting project that predicts future sales using Long Short-Term Memory (LSTM) neural networks. This portfolio-ready AI project demonstrates advanced deep learning techniques for sequential data prediction, featuring realistic data generation, comprehensive analysis, and interactive forecasting capabilities.
 
-## 🚀 Features
+## 🚀 Features 
 
 - **📊 Realistic Sales Data Generation** - Synthetic time-series data with trends, seasonality, and events
 - **🔍 Comprehensive EDA** - Time series analysis, pattern discovery, and statistical insights
